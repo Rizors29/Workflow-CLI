@@ -1,0 +1,33 @@
+artifact_path: file:D:/Dicoding/Membangun Sistem Machine Learning/Workflow-CI/MLProject/mlruns/0/models/m-a4abe3ce31f84b269376b780428192ec/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.12.0
+model_id: m-a4abe3ce31f84b269376b780428192ec
+model_size_bytes: 876
+model_uuid: m-a4abe3ce31f84b269376b780428192ec
+prompts: null
+run_id: 59ffa856486e47bb8e3b1529d3e4607e
+signature:
+  inputs: '[{"type": "double", "name": "0", "required": true}, {"type": "double",
+    "name": "1", "required": true}, {"type": "double", "name": "2", "required": true},
+    {"type": "double", "name": "3", "required": true}, {"type": "double", "name":
+    "4", "required": true}, {"type": "double", "name": "5", "required": true}, {"type":
+    "double", "name": "6", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-23 05:24:48.480043'
